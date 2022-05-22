@@ -1,20 +1,20 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
-  "ascii": "liveterm",
+  "readmeUrl": "https://github.com/sridhargude/sridhargude/blob/main/README.md",
+  "title": "Deadpool",
+  "name": "Sridhar Gude",
+  "ascii": "Deadpool",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "sridhargude",
+    "linkedin": "sridhargude",
+    "twitter": "sridhar_gude"
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
+  "email": "gude.sridhar92@email.com",
+  "ps1_hostname": "Deadpool",
   "ps1_username": "visitor",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "repo": "https://github.com/sridhargude",
+  "resume_url": "../../../files/Resume.pdf",
   "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
+    "paypal": "https://paypal.me/sridhargude"
   },
   "colors": {
     "light": {

@@ -70,6 +70,12 @@ export const linkedin = async (args: string[]): Promise<string> => {
   return 'Opening linkedin...';
 };
 
+export const twitter = async (args: string[]): Promise<string> => {
+  window.open(`https://www.twitter.com/${config.social.twitter}/`);
+
+  return 'Opening twitter...';
+};
+
 // Search
 export const google = async (args: string[]): Promise<string> => {
   window.open(`https://google.com/search?q=${args.join(' ')}`);
@@ -101,7 +107,7 @@ export const whoami = async (args: string[]): Promise<string> => {
 };
 
 export const ls = async (args: string[]): Promise<string> => {
-  return `a
+  return `s
 bunch
 of
 fake
@@ -141,14 +147,12 @@ export const sudo = async (args?: string[]): Promise<string> => {
 // Banner
 export const banner = (args?: string[]): string => {
   return `
-█████        ███                       ███████████                                   
-░░███        ░░░                       ░█░░░███░░░█                                   
- ░███        ████  █████ █████  ██████ ░   ░███  ░   ██████  ████████  █████████████  
- ░███       ░░███ ░░███ ░░███  ███░░███    ░███     ███░░███░░███░░███░░███░░███░░███ 
- ░███        ░███  ░███  ░███ ░███████     ░███    ░███████  ░███ ░░░  ░███ ░███ ░███ 
- ░███      █ ░███  ░░███ ███  ░███░░░      ░███    ░███░░░   ░███      ░███ ░███ ░███ 
- ███████████ █████  ░░█████   ░░██████     █████   ░░██████  █████     █████░███ █████
-░░░░░░░░░░░ ░░░░░    ░░░░░     ░░░░░░     ░░░░░     ░░░░░░  ░░░░░     ░░░░░ ░░░ ░░░░░ 
+███████╗██████╗ ██╗██████╗ ██╗  ██╗ █████╗ ██████╗    ██████╗ ██╗   ██╗██████╗ ███████╗
+██╔════╝██╔══██╗██║██╔══██╗██║  ██║██╔══██╗██╔══██╗  ██╔════╝ ██║   ██║██╔══██╗██╔════╝
+███████╗██████╔╝██║██║  ██║███████║███████║██████╔╝  ██║  ███╗██║   ██║██║  ██║█████╗
+╚════██║██╔══██╗██║██║  ██║██╔══██║██╔══██║██╔══██╗  ██║   ██║██║   ██║██║  ██║██╔══╝
+███████║██║  ██║██║██████╔╝██║  ██║██║  ██║██║  ██║  ╚██████╔╝╚██████╔╝██████╔╝███████╗
+╚══════╝╚═╝  ╚═╝╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═════╝  ╚═════╝ ╚═════╝ ╚══════╝
 
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
